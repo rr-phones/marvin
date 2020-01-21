@@ -1,4 +1,4 @@
-function iniciais(palavra) {
+function finais(palavra) {
 const palavras = palavra;
-return palavra.substring(3,0)
+return palavra.substring(9)
 }
