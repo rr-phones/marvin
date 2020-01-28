@@ -1,4 +1,3 @@
 function penultimo(palavra) {
-const palavras = palavra;
-return palavra.substring(5,6)
+ return palavra.substr(-2, 1)
 }
