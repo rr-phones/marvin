@@ -1,4 +1,3 @@
-function minusculo(roberto) {
-const palavra = roberto;
-return palavra.substring(0,1).concat(palavra.substring(1).toUpperCase());
+function minusculo(palavra){
+ return palavra.substring(1,0).toLowerCase();
 }
