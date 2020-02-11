@@ -3,17 +3,13 @@ function fizzbuzz(num1, num2){
    while (a<= num2){
         if ( a % 3 === 0 && a % 5 === 0){
           console.log(a + " Fizzbuzz ")
-          a ++ 
-        }
-        if(a % 5 === 0){
+        }else if(a % 5 === 0){
           console.log(a + " Buzz ")
-          a++
-    }
-        if(a % 3 === 0){
+    }else if(a % 3 === 0){
           console.log(a + " Fizz ")
-          a++
-}
-console.log(a)
+}else{
+    console.log(a)
+    }
 a++
 }
 }
