@@ -1,23 +1,17 @@
 function por42(num1, num2){
-	var mult = 42
-  var cont = 2
-  var flag = 0
-  var result = null;
-  while (mult < num2){
-  	if(mult > num1){
-      
-      if (flag == 1) {
-					result = mult
-      } else {
-				flag = 1
-      } 
-  	} 
-    mult = 42 * cont
-    cont++
-  }
-  if (!result) {
-  	console.log('Não Encontrado');
-    return false;
-  } 
-  return result;
-}
+    var result = null;
+    var a = 0;
+    while ( num1 <= num2){
+        if ( num1 % 42 === 0){
+            a = a +1;
+        }
+        if (a === 2){
+            return(num1);
+        }
+        num1++
+    } if (!result)
+    console.log("NÃ£o encontrado")
+    return false
+} 
+
+
